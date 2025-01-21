@@ -412,6 +412,66 @@ img{
 /* stories section ends here */
 
 /* Footer section start here */
+footer{
+    background-color: #01ACFD;
+    height: 519px;
+}
+.footer-main{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-para{
+    font-size: 1.25;
+    color:white;
+    font-weight: 400;
+    line-height: 1.25;
+    max-width: 300px;
+}
+.white{
+    color:white;
+}
+.inner-foot img{
+    width:20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.inner-foot{
+    display: flex;
+}
+.footer-iu{
+    display: flex;
+    align-items: center;
+   margin-bottom: 40px;
+}
+.footer-iu img{
+    width:83px;
+    height: 82px;
+    color: #FFFFFF;
+    padding:5px;
+
+}
+.footer-para{
+    margin-left: 20px;
+}
+.footer-ki{
+    
+}
+.kids{
+    font-size: 3rem;
+    width:200px
+}
+ .nubab li{
+    margin-bottom: 20px;
+   }
+.foot-sub-head{
+    margin-bottom: 20px;
+}
+.foot-sub{
+    margin-bottom: 20px;
+}
+  
 /* Footer Section ends here */
 /* responsive Section */
 @media screen and (max-width:576px) {
@@ -474,7 +534,26 @@ img{
 
 
    /* Stories section ends here */
-   
+   /* footer section start here */
+   .footer-main{
+    flex-direction: column;
+    justify-content: left;
+    margin-left:-100px;
+   }
+   .foot-div2{
+    text-align: left;
+    margin-right: 135px;
+    margin-top: 30px;
+   }
+   .foot-sub-head{
+    margin-bottom: 20px;
+    margin-left: 14px;
+
+   }
+   .nubab {
+    margin-right: 35px;
+   }
+  
 
 }
     
