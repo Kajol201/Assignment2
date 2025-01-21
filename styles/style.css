@@ -7,6 +7,10 @@
 }
 
 /* share styles */
+*{
+    margin:0;
+    padding: 0;
+}
 .width{
     max-width: 1160px;
     margin:0 auto;
@@ -22,7 +26,7 @@
     color:orange;
 }
 .clr-sky-blue{
-    color: skyblue;
+    color: rgb(15, 171, 233);
 }
 .clr-third{
     color: #05D4DF;
@@ -87,6 +91,61 @@
     border-radius: 12px;
 }
 
+
+/* banner section start */
+.banner-section{
+
+  
+
+}
+.banner-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-title{
+    max-width: 640px;
+    height: 331px;
+ 
+
+}
+
+.banner-heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+
+}
+.banner-para{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 27px;
+
+
+}
+
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: black;
+    color:white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+
+}
+.banner-img{
+    
+    max-width:469px;
+    height: 575px;
+    margin-left:50px;
+}
+img{
+    width:100%;
+}
+/* banner section End */
+
+
 /* nav mobile Section */
 .mobile-section{
     max-width: 390px;
@@ -120,6 +179,26 @@ hr{
     .mobile-section{
         display: block;
 
+    }
+    .banner-main{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+    max-width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+
+    }
+    .banner-img{
+    margin-right: 50px;
+    }
+    .banner-section{
+    margin-top:30px;
+
+    }
+    .banner-btn{
+        margin:20px 0px;
     }
   
     
