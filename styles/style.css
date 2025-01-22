@@ -41,6 +41,55 @@
 .hide{
     display:none;
 }
+.ho:hover{
+    background-color: #3CD8E8;
+    box-shadow: 10px 15px 10px white;
+    padding: 15px;
+    transition: 0.3s;
+    border-radius: 12px;
+    color:white;
+}
+.hoo-btn:hover{
+    background-color: #3CD8E8;
+    box-shadow: 10px 15px 10px white;
+    padding: 15px 80px;
+    transition: 0.3s;
+    border-radius: 12px;
+    color:white;
+}
+.ho-card:hover{
+    background-color: #3CD8E8;
+    box-shadow: 10px 10px 5px #FACF94;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 12px;
+    color:white;
+}
+.hoo-btn1:hover{
+    background-color: #3CD8E8;
+    box-shadow: 10px 15px 10px #FACF94;
+    padding: 15px 50px;
+    transition: 0.3s;
+    border-radius: 12px;
+    color:white;
+}
+.hoo-btn2:hover{
+    background-color: #25ad8b;
+    box-shadow: 10px 10px 5px #25ad8b;
+    padding: 5px 35px;
+    transition: 0.3s;
+    border-radius: 12px;
+    color:white;
+    margin-bottom: 10px;
+}
+.ico:hover{
+    padding:40px;
+    background-color: #05D4DF;
+    transition: 0.3s;
+}
+
+
+
 /* share styles end */
 
 
@@ -118,7 +167,11 @@ hr{
     border: 1px solid orange;
     width: 390px;
 }
-/* nav mobile section end */
+.mark{
+    font-size: 2rem;
+    color: #01ACFD;
+    margin-top:20px;
+}
 
 /* banner section start */
 .banner-section{
@@ -434,7 +487,7 @@ footer{
     align-items: center;
 }
 .footer-para{
-    font-size: 1.25;
+    font-size: 1.25rem;
     color:white;
     font-weight: 400;
     line-height: 1.25;
@@ -478,6 +531,7 @@ footer{
    }
 .foot-sub-head{
     margin-bottom: 20px;
+    margin-left:20px;
 }
 .foot-sub{
     margin-bottom: 10px;
