@@ -548,6 +548,22 @@ footer{
 /* Footer Section ends here */
 /* responsive Section */
 @media screen and (max-width:576px) {
+    .width{
+        max-width: 357px;
+    }
+    .widt{
+        max-width: 357px;
+    }
+    .sto-div{
+        width:170px;
+        height: 460px;
+    }
+    .sto-main{
+        margin-right: 200px;
+    }
+    .foot-res{
+        margin-left:75px;
+    }
     .nav-head{
         display: none;
     }
@@ -571,6 +587,7 @@ footer{
     }
     .banner-section{
     margin-top:30px;
+    margin-left:40px;
 
     }
     .banner-btn{
@@ -581,6 +598,7 @@ footer{
     /* curriculam responsive section Start*/
     .card{
         flex-direction: column;
+        margin-left:30px;
     }
     .card-child{
         margin-bottom: 12px;
@@ -603,6 +621,9 @@ footer{
    }
    .sto-main{
     flex-direction: column;
+   }
+   .stories{
+   
    }
 
 
