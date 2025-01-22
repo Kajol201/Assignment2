@@ -87,6 +87,11 @@
     background-color: #05D4DF;
     transition: 0.3s;
 }
+.ico1:hover{
+    padding:10px;
+    background-color: white;
+    border-radius: 8px;
+}
 
 
 
@@ -503,6 +508,8 @@ footer{
 }
 .inner-foot{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-iu{
     display: flex;
